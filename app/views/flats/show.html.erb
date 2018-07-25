@@ -1,0 +1,28 @@
+<div class="map">
+</div>
+<div class="wrapper">
+  <div class="container" id="show">
+    <div class="flat-info">
+      <div class="flat-info-title">
+        <h2><%= @flat.name %></h2>
+        <p><%= @flat.address %></p>
+      </div>
+      <div class="flat-info-description">
+        <h3>A little bit about this flat</h3>
+        <p><%= @flat.description %></p>
+      </div>
+      <div class="flat-info-details">
+        <h3>Details</h3>
+        <p><i class="fas fa-dollar-sign"></i> <%= @flat.price_per_night %> <i class="fas fa-home"></i> <%= @flat.number_of_guests %></p>
+      </div>
+    </div>
+    <div class="flat-booking">
+      <div class="flat-booking-form">
+        <h3>This is a form</h3>
+      </div>
+      <div class="flat-booking-share">
+        <h4><%= link_to "Update this booking", edit_flat_path(@flat) %></h4>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,72 @@
+.map {
+  height: 40vh;
+  background-color: rgba(0,0,0,0.1);
+  background-image: url(https://picsum.photos/900/300/?random);
+  background-size: cover
+}
+
+.wrapper {
+
+}
+
+#show {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -100px
+}
+
+.flat-info {
+  padding: 10px;
+  width: 50vw;
+} p {
+  font-size: 16px;
+}
+
+.flat-info-title {
+  background-color: rgb(240, 240, 240);
+  border: 1px solid rgb(230, 230, 230);
+  box-shadow: 1px 1px 3px rgb(220, 220, 220);
+  padding: 10px;
+  margin: 10px;
+}
+
+.flat-info-description {
+  background-color: rgb(240, 240, 240);
+  border: 1px solid rgb(230, 230, 230);
+  box-shadow: 1px 1px 3px rgb(220, 220, 220);
+  padding: 10px;
+  margin: 10px;
+}
+
+.flat-info-details {
+  background-color: rgb(240, 240, 240);
+  border: 1px solid rgb(230, 230, 230);
+  box-shadow: 1px 1px 3px rgb(220, 220, 220);
+  padding: 10px;
+  margin: 10px;
+}
+
+.flat-booking {
+  padding: 10px;
+  width: 30vw;
+} p {
+  font-size: 16px;
+}
+
+.flat-booking-share {
+  background-color: rgb(240, 240, 240);
+  border: 1px solid rgb(230, 230, 230);
+  box-shadow: 1px 1px 3px rgb(220, 220, 220);
+  padding: 10px;
+  margin: 10px;
+}
+
+.flat-booking-form {
+  background-color: rgb(240, 240, 240);
+  border: 1px solid rgb(230, 230, 230);
+  box-shadow: 1px 1px 3px rgb(220, 220, 220);
+  padding: 10px;
+  margin: 10px;
+}
+
+
